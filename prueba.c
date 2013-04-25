@@ -3,7 +3,8 @@
 int main(int argc, char *argv[]) {
 
 	FILE *fd = fopen("/tmp/prueba.txt", "r");
-	fclose(fd);
+	fprintf(fd, "Hola\n");
+	//fclose(fd);
 
 	return 0;
 }
